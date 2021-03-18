@@ -4,6 +4,5 @@ db.produtos.createIndex(
 );
 
 db.produtos.count(
-  { $text: { $search: "'feito com'" } },
-  {},
+  { $text: { $search: "'feito com'" } }
 );
